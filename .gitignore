@@ -1,0 +1,27 @@
+
+# Python environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Raw source datasets
+data/source/
+
+# Generated data layers
+data/bronze/
+data/silver/
+data/gold/
+data/quarantine/
+data/exports/
+
+# Runtime logs and metadata
+logs/
+metadata/runtime/
+
+
