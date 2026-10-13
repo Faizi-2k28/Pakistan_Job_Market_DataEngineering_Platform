@@ -282,16 +282,4 @@ git status --short
 
 If the tracked-path command lists private files, or if the key-pattern scan lists a source file, stop before pushing and remove the exposure safely. If a credential was committed, rotate/revoke it and review Git history before making the repository public.
 
-## Current Limitations and Next Improvements
 
-- JobsPipe collection intentionally requests only one page of up to 25 records per pipeline run.
-- Available salary information differs by source; missing figures are retained as missing rather than estimated.
-- Posting trend charts include only records with valid posting timestamps.
-- Location aggregates group the source location string as provided; multi-city strings are not split automatically.
-- The Power BI report needs a manual refresh after new CSV exports unless a separate refresh mechanism is configured.
-- Configure a deliberate Airflow schedule only after confirming API credit usage, incremental collection behavior, and failure handling.
-- Add automated data quality tests and explicit Airflow metadata persistence before treating this as a production service.
-
-## Author
-
-Faizan Khan
